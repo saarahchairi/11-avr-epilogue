@@ -131,7 +131,7 @@ footer .reseaux a, footer .copyright p a{
 footer .reseaux a:hover{
     color: black;
 }
-#intro button:hover, #commencer button:hover, #centre button:hover, i:hover {
+#intro button:hover, #commencer button:hover, #centre button:hover {
     background-color: black;
     color: white;
 }
