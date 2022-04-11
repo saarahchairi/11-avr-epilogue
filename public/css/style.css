@@ -26,10 +26,6 @@ p{
     color: grey;
     line-height: 2;
 }
-hr{
-    width: 50px;
-    color: black;
-}
 
 header{
     display: flex;
@@ -88,6 +84,7 @@ header p{
 #centre h3{
     margin: 0;
     color: white;
+    z-index: 1;
 }
 #centre p{
     padding: 5% 10%;
@@ -130,4 +127,11 @@ footer{
 footer .reseaux a, footer .copyright p a{
     color: grey;
     padding: 10px;
+}
+footer .reseaux a:hover{
+    color: black;
+}
+#intro button:hover, #commencer button:hover, #centre button:hover, i:hover {
+    background-color: black;
+    color: white;
 }
