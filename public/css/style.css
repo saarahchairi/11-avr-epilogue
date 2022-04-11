@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+h1::after{
+    content: "";
+    background-color: white;
+    height: 1px;
+    position: absolute;
+    width: 50%;
+    right: 25%;
+    top: 27%;
+}
+a{
+    text-decoration: underline dotted;
+    color: white;
+}
+p{
+    color: grey;
+    line-height: 2;
+}
+hr{
+    width: 50px;
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    height: 50vh;
+    color: white;
+}
+header p{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: 50px 10%;
+}
+
+#intro, #commencer{
+    padding: 5% 25%;
+    background-color: white;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr;
+}
+#intro i{
+    padding: 20px 20px;
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#intro button, #commencer button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 30px;
+}
+
+#centre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 30px;
+}
+#centre>div {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 500px;
+    background-color: white;
+}
+#centre h3{
+    margin: 0;
+    color: white;
+}
+#centre p{
+    padding: 5% 10%;
+}
+#centre button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10%;
+}
+.site1 .bcg, .site2 .bcg, .site3 .bcg, .site4 .bcg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+.site1 .bcg{
+    background: url(../images/pic01.jpg) no-repeat bottom center/ cover;
+}
+.site2 .bcg{
+    background: url(../images/pic02.jpg) no-repeat bottom center/ cover;
+}
+.site3 .bcg{
+    background: url(../images/pic03.jpg) no-repeat bottom center/ cover;
+}
+.site4 .bcg{
+    background: url(../images/pic04.jpg) no-repeat bottom center/ cover;
+}
+
+#commencer{
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    background-color: transparent;
+    position: relative;
+}
+
+footer{
+    text-align: center;
+}
+footer .reseaux a, footer .copyright p a{
+    color: grey;
+    padding: 10px;
+}
